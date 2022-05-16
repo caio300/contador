@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.contador-main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: black;
+  padding: 30px;
+}
+
+.contador-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contador-titulo {
+  font-family: 'Roboto', sans-serif;
+  font-size: 60px;
+  color: #21EB00;
+}
+
+.contador-botao {
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 25px;
+  height: 50px;
+  width: 200px;
+  background-color: #21EB00;
+  color: black;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+}
+
+h2 {
+  color: gray;
+  font-family: 'Roboto', sans-serif;
+  font-size: 80px;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.container-numbers {
+  display: flex;
+  gap: 70px;
+  margin: 0 auto;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 120px;
+  color: white;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: #21EB00;
+}
+
+@media screen and (max-width: 700px) {
+  .contador-header {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  h2 {
+    font-size: 50px;
+    padding: 0;
+    margin-top: 60px;
+  }
+
+  .container-numbers {
+    flex-direction: column;
+    padding-bottom: 30px;
+    gap: 30px;
+  }
+}
