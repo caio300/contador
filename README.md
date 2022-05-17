@@ -23,4 +23,4 @@ chegar um determinada data. O projeto foi desenvolvido em React.js.
   - `npm install`
 
 3. Iniciel o projeto
-  -`npm start`
+  - `npm start`
