@@ -22,5 +22,5 @@ chegar um determinada data. O projeto foi desenvolvido em React.js.
 2. Instale as dependências
   - `npm install`
 
-3. Iniciel o projeto
+3. Iniciar o projeto
   - `npm start`
